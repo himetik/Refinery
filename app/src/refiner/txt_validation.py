@@ -1,4 +1,4 @@
-"""Text validation."""
+"""Text validation. Input: Text → Output: Bool (valid/invalid)."""
 
 from typing import Tuple, Dict
 import re

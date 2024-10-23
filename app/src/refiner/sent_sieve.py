@@ -1,3 +1,5 @@
+"""Sentences filtration. Input: List of Sentences → Output: List of Valid Sentences."""
+
 from typing import List
 from app.src.refiner.sent_validation import validate_sentence
 from app.src.refiner.sent_moderation import create_moderator

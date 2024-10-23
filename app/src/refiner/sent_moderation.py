@@ -1,4 +1,4 @@
-"""Sentences moderation."""
+"""Sentences moderation. Input: List of Sentences → Output: Bool (contains profanity/does not contain profanity)."""
 
 import os
 import spacy

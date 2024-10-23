@@ -1,4 +1,4 @@
-"""Sentences validation."""
+"""Sentences validation. Input: List of Sentences → Output: Bool (valid/invalid)."""
 
 from typing import Callable, List
 

@@ -1,4 +1,4 @@
-"""Text separation."""
+"""Text separation. Input: Text → Output: List of Sentences."""
 
 import spacy
 from typing import List
