@@ -5,7 +5,7 @@ from app.src.refiner.sent_validation import validate_sentence
 from app.src.refiner.sent_moderation import create_moderator
 
 
-def process_sentences(sentences: List[str], profanity_file: str) -> List[str]:
+def filter_valid_sentences(sentences: List[str], profanity_file: str) -> List[str]:
     moderate = create_moderator(profanity_file)
     valid_sentences = []
 
